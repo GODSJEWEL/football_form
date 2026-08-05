@@ -1,11 +1,11 @@
 /* This is AssignmentTwo */
-.bodytwo {
+/* .bodytwo {
   color: black;
   background-color: black;
   margin-left: 350px;
   margin-right: 350px;
   padding-left: 10px;
-}
+} */
 .formtopic {
   border: 4px solid green;
   text-align: center;
@@ -13,36 +13,54 @@
 }
 .box1 {
   border: 4px solid red;
+  height: fit-content;
 }
 .box1a{
   border: 4px solid fuchsia;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .div1 {
   border: 4px solid brown;
+  height: fit-content;
+  width: auto;
 }
 .profilepicture {
-  margin-top: 20px;
-  height: 200px;
-  width: 200px;
-  border-radius: 0px;
+  /* margin-top: 20px; */
+  height: 180px;
+  width: 180px;
+  border-radius: 05px;
   border: 02px, solid, black;
   background-color: purple;
   padding-left: 10px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-right: 10px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=tel],
+select,
+textarea {
+  width:90%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+}
 
 .boxform {
-  border: 04px, solid, white;
+  height:fit-content;
+  width:400px;
   background-color: darkorchid;
-  border: 5px solid darkorchid;
+  border: 3px solid black;
+  border-radius: 8px;
   background-color: beige;
-  margin-left: 175px;
-  margin-right: 175px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 75px 010px gray;
+  /* margin-left: 175px; */
+  /* margin-right: 175px; */
 }
 .boxform p {
   color: black;
