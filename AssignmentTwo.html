@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Two</title>
+    <link rel="stylesheet" href="./Assignmentstyle2.css">
+</head>
+<body>
+    <div class="boxform">
+    <!-- Working on a form -->
+      <div class="box1">
+
+        <h1 class="formtopic"><ins>FOOTBALLER's TRAINING REGISTERATION FORM</ins></h1>
+    <form>
+        <br>
+        <div class="box1a">
+            <div class="div1">
+            <label for="Surname">Surname:</label>
+            <input type="text" id="Surname" name="Surname" placeholder="Enter your Surname" required>
+            <br>
+            <label for="Firstname">First Name:</label>
+            <input type="text" id="Firstname" name="Firstname" placeholder="Enter your First Name" required>
+            <br>
+            <label for="Othernames">Othernames:</label>
+            <input type="text" id="Othernames" name="Othernames" placeholder="Enter your Othernames" required>
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male" id="gender">Male</label>
+            <input type="radio" name="gender" value="Female" id="gender">Female</label>
+            <br>
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" name="Age" placeholder="Enter your Age" min="18" max="70" required>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your E-mail" required>
+            <br>
+            <label for="Password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <br>
+            <label for="PhoneNumber">Phone Number:</label>
+            <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="Enter your Phone Number" required>
+            <br>
+            <label for="Position">Position applying for:</label>
+            <input type="text" id="Position" name="Position" placeholder="Enter your desired Position e.g Goal keeper" required>
+            <br>
+            <label for="Team">Team:</label>
+            <input type="text" id="Team" name="Team" placeholder="Enter your Team" required>
+            <br>
+        </div>
+        <div class="profilepicture">
+        <p><strong>
+            Please attatch your profile photograph here
+        </strong></p>
+            </div>
+    </div>
+        
+        
+        
+
+      </div>
+
+
+
+          <p>Please select your favourite football clubs below (You may choose <strong>more than one but less than three</strong>)</p>
+       <select name="Clubs" id="Clubs" multiple size="3">
+          <option value="Arsenal">Arsenal</option> 
+          <option value="FC Barcelona">FC Barcelona</option>
+          <option value="Manchester City">Manchester City</option>
+          <option value="Real Madrid">Real Madrid</option>
+          <option value="Chelsea">Chelsea</option>
+          <option value="Mnchester United">Manchester United</option>
+          <option value="Tottenham">Tottenham</option>
+          <option value="Super Eagles">Super Eagles</option>
+          <option value="Liverpool">Liverpool</option>
+          <option value="Juventus">Juventus</option>
+       </select>
+       <br>
+       <br>
+       <p>Please leave a comment below on why you chose any of the above as your favorite football clubs:</p>
+       <textarea name="comment" id="comment" placeholder="Comment to help us improve!"></textarea>
+       <br>
+       <br>
+       <input type="checkbox" name="confirm" id="confirm" value="1" checked>I am at least eighteen years old, have filled every aspect of the form and I am ready to dedicate my time to this training</label>
+       <br>
+       <br>
+       <button input type="submit" value="Register" class="btn"> Register </button>
+    </form>
+        <br>
+      <a href="./AssignmentThree.html" target="_blank">Click here to go to AssignmentThree</a>
+    </div>
+</body>
+</html>

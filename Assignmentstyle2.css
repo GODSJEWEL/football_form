@@ -1,0 +1,61 @@
+/* This is AssignmentTwo */
+.bodytwo {
+  color: black;
+  background-color: black;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-left: 10px;
+}
+.formtopic {
+  border: 4px solid green;
+  text-align: center;
+  color: darkorchid;
+}
+.box1 {
+  border: 4px solid red;
+}
+.box1a{
+  border: 4px solid fuchsia;
+  display: flex;
+  flex-direction: row;
+}
+.div1 {
+  border: 4px solid brown;
+}
+.profilepicture {
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 0px;
+  border: 02px, solid, black;
+  background-color: purple;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+
+.boxform {
+  border: 04px, solid, white;
+  background-color: darkorchid;
+  border: 5px solid darkorchid;
+  background-color: beige;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+.boxform p {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 16px;
+}
+
+
+.btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+}
